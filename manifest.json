@@ -2,11 +2,10 @@
    "content_scripts": [ {
       "all_frames": true,
       "css": [ "formula.css", "menu/basicContext.min.css", "menu/default.min.css", "menu/basicModal.min.css" ],
-      "js": [ "fonts/fmathFormulaFonts.js", "fmathFormulaC.js", "menu/basicContext.min.js", "menu/basicModal.min.js", "content.js","index.js" ],
-      "matches": [ "http://*/*", "https://*/*", "file:///*/*" ],
-      "run_at": "document_end"
+      "js": [ "jq.js","fonts/fmathFormulaFonts.js", "fmathFormulaC.js", "menu/basicContext.min.js", "menu/basicModal.min.js", "index.js","content.js"],
+      "matches": [ "http://*/*", "https://*/*", "file:///*/*" ]
    } ],
-   "description": "HTML + MATHML + this extension. Draw/Convert MathML into an image. More info, questions or bug report on www.fmath.info",
+   "description": "Meritnation answers without logging in. Uses Fmath",
    "manifest_version": 2,
    "name": "Meritension",
    "permissions": [ "tabs", "\u003Call_urls>", "contextMenus" ],
