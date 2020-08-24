@@ -3,7 +3,7 @@
       "all_frames": true,
       "css": [ "formula.css", "menu/basicContext.min.css", "menu/default.min.css", "menu/basicModal.min.css" ],
       "js": [ "jq.js","fonts/fmathFormulaFonts.js", "fmathFormulaC.js", "menu/basicContext.min.js", "menu/basicModal.min.js", "index.js","content.js"],
-      "matches": [ "http://*/*", "https://*/*", "file:///*/*" ]
+      "matches": [ "https://www.meritnation.com/ask-answer/question/*"]
    } ],
    "description": "Meritnation answers without logging in. Uses Fmath",
    "manifest_version": 2,
